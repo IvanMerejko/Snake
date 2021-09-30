@@ -11,6 +11,9 @@ class MainWindow : public QQmlApplicationEngine
 public:
    explicit MainWindow(const QString&);
 private:
+   void initializeWindowPtr();
+//   void initializeRootContext();
+private:
    QObjectPtr m_mainWindow;
 };
 
