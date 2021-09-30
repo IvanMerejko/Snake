@@ -33,3 +33,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
    Common/Types.h \
    Windows/MainWindow.h
+
+DISTFILES += \
+   Tasks
