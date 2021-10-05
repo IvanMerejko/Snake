@@ -1,8 +1,8 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
-        <file>Map.qml</file>
-        <file>MapElement.qml</file>
+        <file>GameBoard.qml</file>
+        <file>GameBoardElement.qml</file>
         <file>Types.js</file>
     </qresource>
 </RCC>

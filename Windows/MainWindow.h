@@ -2,6 +2,7 @@
 #include <QQmlApplicationEngine>
 #include <QObject>
 #include "Common/Types.h"
+#include "GameBoard.h"
 
 namespace snake
 {
@@ -12,9 +13,11 @@ public:
    explicit MainWindow(const QString&);
 private:
    void initializeWindowPtr();
-//   void initializeRootContext();
+   void initializeRootContext();
+   void createGameBoard() noexcept;
 private:
    QObjectPtr m_mainWindow;
+   GameBoardPtr m_gameBoard;
 };
 
 }
